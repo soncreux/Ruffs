@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body {
+    background-color: bisque;
+
+    font-size: 16px ;
+    font-weight: normal;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.ruffsavatar {
+    width:300px;
+    border-radius: 28px;
+    box-shadow:4px 4px 14px bisque;
+}
+
+.info p {
+    margin: 0;
+    font-style: italic;
+}
+
+.about {
+background-color: blueviolet;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
