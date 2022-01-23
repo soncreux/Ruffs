@@ -8,22 +8,83 @@ body {
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
+a {
+color: rgb(202, 60, 107);
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+a:active {
+color: rgb(235, 10, 85);
+}
+
+.video {
+    margin-left: 400px;
+    position: absolute;
+    
+}
+
 .ruffsavatar {
     width:300px;
     border-radius: 28px;
     box-shadow:4px 4px 14px bisque;
+   
+}
+
+.info {
+    margin-bottom:  15px;
 }
 
 .info p {
-    margin: 0;
+    
     font-style: italic;
 }
 
-.about {
-background-color: blueviolet;
-}
+/*.about {
+background-color: rgb(66, 202, 134);
+padding: 11px 20px;
+border: 5px solid chocolate;
+margin: 17px;
+
+}*/
 
 .container {
     max-width: 750px;
     margin: auto;
+    
+}
+
+.card {
+    padding: 15px 20px;
+margin-bottom: 20px; 
+   
+background: linear-gradient(rgb(66,202,134), #9198e5);;
+border: 5px solid chocolate;
+border-radius: 30px;
+}
+
+
+.card h2 {
+    margin-left: 30%;
+}
+
+.ulist li {
+    text-align: center;
+}
+
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    font-weight: 700 ;
+    color: rgb(32, 27, 110)
 }
