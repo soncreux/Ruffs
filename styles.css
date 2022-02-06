@@ -23,7 +23,9 @@ color: rgb(235, 10, 85);
 
 .video {
     margin-left: 400px;
+
     position: absolute;
+    border-radius: 28px ;
     
 }
 
